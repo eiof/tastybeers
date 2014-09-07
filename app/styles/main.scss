@@ -1,0 +1,65 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+
+// bower:scss
+@import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
+// endbower
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background-image: url("../images/snow.png");
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.modal-input {
+    margin-bottom: 10px;
+}
+
+.family-distribution {
+    display: block;
+    margin: 0 auto;
+}
+
+.row.legend {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.chartjs-bugs {
+    margin-top: 20px;
+}
+
+/* Custom page header */
+.header {
+
+    /* Make the masthead heading the same height as the navigation */
+    h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 40px;
+        padding-bottom: 19px;
+    }
+}
+
+/* Custom page footer */
+.footer {
+    padding-top: 19px;
+    color: #777;
+    text-align: center;
+}

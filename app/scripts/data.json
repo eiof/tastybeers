@@ -1,0 +1,15 @@
+{
+    "beers": [
+        {"brewery": "Cold Mountain", "name": "Snow Pile", "category": "Pislner", "family": "Lager"},
+        {"brewery": "Kettle Koncoctions", "name": "Witches Brew", "category": "American Pale Ale", "family": "Ale"},
+        {"brewery": "The Simple Things", "name": "Sip Afar", "category": "Indian Pale Ale", "family": "Ale"},
+        {"brewery": "Cold Mountain", "name": "Peak Ram", "category": "Dopplebock", "family": "Lager"},
+        {"brewery": "Cold Mountain", "name": "Piney Path", "category": "Old Ale", "family": "Ale"},
+        {"brewery": "Vverstein", "name": "Oktoberfest", "category": "Oktoberfest", "family": "Lager"},
+        {"brewery": "Wake Harbor Brewery", "name": "Whale Ale", "category": "Wheat Ale", "family": "Ale"},
+        {"brewery": "Wake Harbor Brewery", "name": "Nessie", "category": "Scotch Ale", "family": "Ale"},
+        {"brewery": "Wake Harbor Brewery", "name": "Main Sail", "category": "Kolsch", "family": "Hybrid"},
+        {"brewery": "Numertown Brew House", "name": "The Nu", "category": "Brown Ale", "family": "Ale"},
+        {"brewery": "Numertown Brew House", "name": "The Old", "category": "Old Ale", "family": "Ale"}
+    ]
+}

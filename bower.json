@@ -1,0 +1,13 @@
+{
+  "name": "tastybeers",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass-official": "~3.1.1",
+    "modernizr": "~2.6.2",
+    "jquery": "~1.11.0",
+    "requirejs": "~2.1.14",
+    "backbone": "~1.1.2",
+    "chartjs": "~1.0.1 beta-2"
+  },
+  "devDependencies": {}
+}

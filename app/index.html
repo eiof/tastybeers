@@ -1,0 +1,76 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>tastybeers</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <!-- build:css styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="container">
+            <div class="header text-center">
+                <h3><strong>All the Tasty Beers I've Drank<strong></h3>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Brewery & Beer List</h3>
+                        </div>
+                        <table class="table table-striped beer-list">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Brewery</th>
+                                    <th>Name</th>
+                                    <th>Style</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Brew-Family Distribution</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row legend">
+                                <div class="col-xs-4"><span class="glyphicon glyphicon-tint" style="color: #FFDF49;"></span> Lager</div>
+                                <div class="col-xs-4"><span class="glyphicon glyphicon-tint" style="color: #CC561B;"></span> Ale</div>
+                                <div class="col-xs-4"><span class="glyphicon glyphicon-tint" style="color: #DB9B26;"></span> Hybrid</div>
+                            </div>
+                            <div class="distribution-chart"></div>
+                            <div class="chartjs-bugs text-center text-muted"><i>The version of <a href="http://www.chartjs.org/">Chartjs</a> is in Beta. Bugs may be present.</i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="footer">
+                &copy; 2014 Matt Elliott &mdash; Example for <a href="#">Backbone.js Collections & Singleton Power</a>. &mdash; <a href="#">GitHub</a>
+            </div>
+        </div>
+
+        <script data-main="scripts/config" src="bower_components/requirejs/require.js"></script>
+        <script>require(['main']);</script>
+        <link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+</body>
+</html>
