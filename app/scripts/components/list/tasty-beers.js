@@ -11,7 +11,7 @@ define(function (require) {
     var TastyBeers = Backbone.Collection.extend({
         model: TastyBeer,
         initialize: function () {
-            Beers.on('sync', this.populate, this);
+            this.listenTo(Beers, 'sync', this.populate, this);
         },
         populate: function () {
             this.set(Beers.models);

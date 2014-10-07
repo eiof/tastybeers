@@ -12,7 +12,7 @@ define(function (require) {
     var BeerFamilies = Backbone.Collection.extend({
         model: BeerFamily,
         initialize: function () {
-            Beers.on('sync', this.populate, this);
+            this.listenTo(Beers, 'sync', this.populate, this);
         },
         populate: function () {
             var families = _.countBy(Beers.models, function (model) {
